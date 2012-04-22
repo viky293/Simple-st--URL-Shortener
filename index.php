@@ -8,7 +8,7 @@
 	<body>
 		URL: <input type="text" id="url" /> <br>
 		Tag (optional): <input type="text" id="tag" /><br>
-		<input type="button" onclick="shorten(url.value,tag.value)" value="Shorten it!"/>
+		<input type="button" onclick="shorten($('#url').val(),$('#tag').val())" value="Shorten it!"/>
 		<br><br>
 		<div id="result"></div>
 		<br><br>
